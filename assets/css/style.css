@@ -55,3 +55,25 @@ blockquote {
     font-size: 60%;
     font-style: italic;
 }
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 15px;
+    width: 10vw;
+}
+
+.btn--gold {
+    background-color: #F39C12;
+    color: white;
+    border-color: #F39C12;
+}
+
+.btn--gold:hover,
+.btn--gold:active,
+.btn--gold:focus,
+.btn--gold:active:focus {
+    background-color: #8C5341;
+    border-color: #8C5341;
+}
