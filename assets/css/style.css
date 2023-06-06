@@ -17,13 +17,16 @@ blockquote {
     font-family: 'Newsreader', serif;
 }
 
-.alert-container {
-    display: none;
+.alert-container, .col-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin:0;
 }
 
 .alert-container .alert-warning {
     background-color: #FEFEDF;
-    display: none;
+    border-radius: 0;
+    margin-bottom: 0px;
 }
 
 
@@ -67,6 +70,10 @@ blockquote {
     background-color: #B68B7D;
 }
 
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 /* Jumbotron*/
 
 .jumbotron{
@@ -87,7 +94,9 @@ blockquote {
 .btn--cta {
     font-weight: bold;
     border-radius: 15px;
-    width: 10vw;
+    width: auto;
+    padding-right: 20px;
+    padding-left: 20px;;
 }
 
 .btn--gold {
@@ -102,4 +111,8 @@ blockquote {
 .btn--gold:active:focus {
     background-color: #8C5341;
     border-color: #8C5341;
+}
+
+mark {
+    border-radius: 7.5px;
 }
