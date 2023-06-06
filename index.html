@@ -9,119 +9,178 @@
 </head>
 
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="#" class="navbar-brand font-weight-bold">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2">
+                <a class="nav-link" href="/">Hola</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item mr-2 d-block d-sm-none">
+                <a class="nav-link" href="/login">Sign in / Sign up</a>
+            </li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><em>Great whiskey to your door!</em></p>
+            <a href="/login">Sign in / Sign up</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
         <!-- Callout -->
         <div class="row">
-            <section class="callout">
-                <h1>The finest whiskeys delivered to your doorstep.</h1>
-                <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
-                    <s>19.99$</s>
-                    <mark>First one is free!</mark>
-                </p>
-                <button class="btn btn-lg btn-success">Sign up!</button>
-                <p class="text-muted"><small>You must be over 18 to sign up to our service.Please, drink
-                        responsibly.</small></p>
-            </section>
+            <div class="col-12">
+                <section class="callout jumbotron">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">19.99$</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <mark>First one is free!</mark>
+                    </p>
+                    <button class="btn btn-lg btn-success">Sign up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service.Please, drink
+                            responsibly.</small></p>
+                </section>
+            </div>
         </div>
         <!-- /.callout -->
         <hr>
 
         <!-- Quotes -->
-        <div class="row">
-            <section class="quotes">
-                <h2 class="text-uppercase">Quotes:</h2>
-                <blockquote class="blockquote">
-                    <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                    <p class="blockquote-footer">Jane Doe</p>
-                </blockquote>
-                <blockquote class="blockquote">
-                    <p>I haven't been sober for months!</p>
-                    <p class="blockquote-footer">Jane Doe</p>
-                </blockquote>
-            </section>
-        </div>
+        <section class="quotes">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                        <p class="blockquote-footer">Jane Doe</p>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I haven't been sober for months!</p>
+                        <p class="blockquote-footer">Jane Doe</p>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
         <!-- /.quotes -->
         <hr>
-        <!---->
+        <!-- Favorites-->
         <section>
-            <h2>Monthly favorites</h2>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">
-                            #
-                        </th>
-                        <th scope="col">
-                            Name
-                        </th>
-                        <th scope="col">
-                            Origin
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td scope="row">
-                            1
-                        </td>
-                        <td scope="row">
-                            Orange Whiskey
-                        </td>
-                        <td scope="row">
-                            United States
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">
-                            2
-                        </td>
-                        <td scope="row">
-                            White Whiskey
-                        </td>
-                        <td scope="row">
-                            Rusia
-                        </td>
-                    </tr>
-                    <tr>
-                        <td scope="row">
-                            3
-                        </td>
-                        <td scope="row">
-                            Black Whiskey
-                        </td>
-                        <td scope="row">
-                            Germany
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Monthly favorites</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    #
+                                </th>
+                                <th scope="col">
+                                    Name
+                                </th>
+                                <th scope="col">
+                                    Origin
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">
+                                    1
+                                </td>
+                                <td scope="row">
+                                    Orange Whiskey
+                                </td>
+                                <td scope="row">
+                                    United States
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">
+                                    2
+                                </td>
+                                <td scope="row">
+                                    White Whiskey
+                                </td>
+                                <td scope="row">
+                                    Rusia
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope="row">
+                                    3
+                                </td>
+                                <td scope="row">
+                                    Black Whiskey
+                                </td>
+                                <td scope="row">
+                                    Germany
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </section>
+        <!-- End of Features-->
         <hr>
 
         <!-- Features -->
         <section class="features">
-            <h2 class="text-uppercase">Features:</h2>
-            <div class="feature">
-                <h3>Feature 1</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-                <p><a class="btn btn-sm btn-light" href="">Read more!</a></p>
-                <!-- Base class, size class, color class-->
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-uppercase">Features:</h2>
+                </div>
             </div>
-            <div class="feature">
-                <h3>Feature 2</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-                <p><a class="btn btn-sm btn-light" href="">Read more!</a></p>
-            </div>
-            <div class="feature">
-                <h3>Feature 3</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-                <p><a class="btn btn-sm btn-light" href="">Read more!</a></p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read more!</a></p>
+                        <!-- Base class, size class, color class-->
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read more!</a></p>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi
+                            ut
+                            aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read more!</a></p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- /.features -->
