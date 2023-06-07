@@ -59,7 +59,7 @@ tbody {
 .quotes-container {}
 
 .features-container {
-    text-align: justify;
+    text-align: center;
 }
 
 .favorites-container {}
@@ -153,7 +153,7 @@ blockquote {
     background-color: #F39C12;
 }
 
-/* Icons*/
+/* Feature section, Icons & buttons*/
 
 .feature i {
     line-height: 3rem;
@@ -167,4 +167,21 @@ blockquote {
 .feature i:hover {
     transition: 0.3s;
     color: #F39C12;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    color:#8C5341;
+    width: 20vw;
+    transition: 0.3s;
+}
+
+.feature .btn:hover{
+    background-color: #F39C12;
+    border-color:#F39C12;
+    color: white;
+    transition: 0.3s;
 }
