@@ -16,6 +16,10 @@ tbody {
     padding: 0 15px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*Container Wrapper*/
 
 .container-wrapper {
@@ -40,6 +44,11 @@ tbody {
     margin-bottom: 0px;
     color: white;
     border: 0;
+}
+
+.alert-container a {
+    color:#F39C12;
+    text-decoration: none;
 }
 
 /*Hero section*/
@@ -129,6 +138,7 @@ tbody {
 .btn--gold:active:focus {
     background-color: #8C5341;
     border-color: #8C5341;
+    color: white;
 }
 
 mark {
